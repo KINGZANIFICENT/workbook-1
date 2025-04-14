@@ -76,14 +76,14 @@ public class MathApp {
         // Question 6:
         System.out.println("Find and display the absolute (positive) value of a variable after it is set to -3.8");
 
-        double PositiveNumber = -3.8;
-        double absoluteValue = Math.abs(PositiveNumber);
+        double NegativeNumber = -3.8;
+        double absoluteValue = Math.abs(NegativeNumber);
 
-        System.out.println("The absolute value of " + PositiveNumber + " is: " + absoluteValue);
+        System.out.println("The absolute value of " + NegativeNumber + " is: " + absoluteValue);
 
         // /////////////////////////////////////////////////////////////////////////
 
-        // Question 6:
+        // Question 7:
         System.out.println("Find and display a random number between 0 and 1");
 
         double randomNumber = Math.random();
