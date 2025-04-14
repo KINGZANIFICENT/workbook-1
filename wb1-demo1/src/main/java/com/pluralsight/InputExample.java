@@ -12,7 +12,7 @@ public class InputExample {
         String name;
         name = scanner.nextLine();
 
-        System.out.println("Hi" + name + ", lets do some math!");
+        System.out.println("Hey" + name + ", lets do some math!");
 
         System.out.println("what is the first number");
         double number1 = scanner.nextDouble();
