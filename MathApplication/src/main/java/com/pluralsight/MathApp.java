@@ -14,6 +14,7 @@ public class MathApp {
         // REPEAT FOR NEXT EXERCISE
 
         // Question 1:
+        System.out.println("Determine whose salary is greater");
         double bobSalary = 70000;
         double garySalary = 85000;
 
@@ -26,6 +27,9 @@ public class MathApp {
 
         // ///////////////////////////////////////////////////////////////////
 
+        // Question 2:
+        System.out.println("Find and display the smallest of two variables");
+
         double carPrice = 50000;
         double truckPrice = 35000;
 
@@ -37,6 +41,9 @@ public class MathApp {
 
         // //////////////////////////////////////////////////////////////////
 
+        // Question 3:
+        System.out.println("Find and display the area of a circle whose radius is 7.25");
+
         double radius = 7.25;
         double area = Math.PI * Math.pow(radius, 2);
 
@@ -44,12 +51,18 @@ public class MathApp {
 
         // /////////////////////////////////////////////////////////////////
 
+        // Question 4:
+        System.out.println("Find and display the square root a variable after it is set to 5.0");
+
         double number = 5.0;
         double squareRoot = Math.sqrt(number);
 
         System.out.println("The Square Root Of " + number + " is " + squareRoot);
 
         // //////////////////////////////////////////////////////////////////
+
+        // Question 5:
+        System.out.println("Find and display the distance between the points (5, 10) and (85, 50)");
 
         int x1 = 5, y1 = 10;
         int x2 = 85, y2 = 50;
@@ -60,12 +73,18 @@ public class MathApp {
 
         // ///////////////////////////////////////////////////////////////////
 
+        // Question 6:
+        System.out.println("Find and display the absolute (positive) value of a variable after it is set to -3.8");
+
         double PositiveNumber = -3.8;
         double absoluteValue = Math.abs(PositiveNumber);
 
         System.out.println("The absolute value of " + PositiveNumber + " is: " + absoluteValue);
 
         // /////////////////////////////////////////////////////////////////////////
+
+        // Question 6:
+        System.out.println("Find and display a random number between 0 and 1");
 
         double randomNumber = Math.random();
 
