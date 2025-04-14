@@ -42,6 +42,8 @@ public class MathApp {
 
         System.out.println("The Area Of The Circle IS " + area);
 
+        /// /////////////////////////////////////////////////////////////////
+
         double number = 5.0;
         double squareRoot = Math.sqrt(number);
 
@@ -56,7 +58,7 @@ public class MathApp {
 
         System.out.println("The distance between the points is: " + distance);
 
-        /// /////////////////////////////////////////////////////////////////////////
+        /// ///////////////////////////////////////////////////////////////////
 
         double PositiveNumber = -3.8;
         double absoluteValue = Math.abs(PositiveNumber);
