@@ -25,16 +25,30 @@ public class SandwichShop {
             return;
         }
 
+        System.out.print("Would you like the sandwich loaded? (yes/no): ");
+        scanner.nextLine(); // clear the newline
+        String loaded = scanner.nextLine();
+
+        if (loaded.equals("yes")) {
+            if (choice == 1) {
+                price += 1.00;
+            } else if (choice == 2) {
+                price += 1.75;
+            }
+        }
+
+        System.out.printf("Amount Owed: $%.2f\n", price);
+
         System.out.print("Enter your age for a possible discount: ");
         int age = scanner.nextInt();
 
         if (age <= 17) {
-            price *= 0.90; // 10% off
+            price *= 0.90;
         } else if (age >= 65) {
-            price *= 0.80; // 20% off
+            price *= 0.80;
         }
-
         System.out.printf("Amount Owed: $%.2f\n", price);
+
     }
 }
 
