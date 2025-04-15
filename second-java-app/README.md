@@ -1,2 +1,0 @@
-# second-java-app
-YearUp
