@@ -29,7 +29,7 @@ public class SandwichShop {
         scanner.nextLine(); // clear the newline
         String loaded = scanner.nextLine();
 
-        if (loaded.equals("yes")) {
+        if (loaded.equalsIgnoreCase("yes")) {
             if (choice == 1) {
                 price += 1.00;
             } else if (choice == 2) {
