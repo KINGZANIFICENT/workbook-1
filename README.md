@@ -58,16 +58,6 @@ MathApp
 
 A simple command‑line Java application demonstrating various `Math` operations through a series of exercises.
 
-## Features
-- Determine whose salary is greater  
-- Find the smallest and largest of two prices  
-- Calculate the area of a circle for a given radius  
-- Compute the square root of a number  
-- Calculate the distance between two points  
-- Get the absolute value of a number  
-- Generate a random number between 0 and 1  
-- Format and print a user’s ID, name, and pay using `printf`  
-
 Prerequisites
 - Java Development Kit (JDK) 8 or higher   
 - (Optional) An IDE like IntelliJ IDEA or Eclipse  
